@@ -3,7 +3,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/ferna
 local entity = Creator.createEntity({
     CustomName = "Ambush", -- Custom name of your entity
     Model = "https://github.com/fernandesdasilvamariainez-coder/Roblox-Doors-Custom-Entities/blob/main/AmbushMoving.txt?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 400, -- Percentage, 100 = default Rush speed
+    Speed = 700, -- Percentage, 100 = default Rush speed
     DelayTime = 4, -- Time before starting cycles (seconds)
     HeightOffset = 1,
     CanKill = false,
