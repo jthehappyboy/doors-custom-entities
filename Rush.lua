@@ -6,7 +6,7 @@ local v1 = C.createEntity({
     Speed = 100, -- Percentage, 100 = default Rush speed
     DelayTime = 4, -- Time before starting cycles (seconds)
     HeightOffset = 0,
-    CanKill = true,
+    CanKill = false,
     KillRange = 40,
     BreakLights = true,
     BackwardsMovement = false,
@@ -16,7 +16,7 @@ local v1 = C.createEntity({
     },
     Cycles = {
         Min = 1,
-        Max = 1,
+        Max = 2,
         WaitTime = 1,
     },
     CamShake = {
