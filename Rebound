@@ -51,8 +51,8 @@ function GetLastRoom()
 end
 local DEF_SPEED = 99999
 local function Move()
-	local Reboundspeed = 2
-	local ReboundDelay = 2
+	local Reboundspeed = 9
+	local ReboundDelay = 0
 	local storer = Reboundspeed
 	local entityheight = Vector3.new(0,0.6,0)
 	----------
