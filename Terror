@@ -4,12 +4,12 @@ local entity = Creator.createEntity({
     CustomName = "Terror", -- Custom name of your entity
     Model = "https://github.com/fernandesdasilvamariainez-coder/Roblox-Doors-Custom-Entities/blob/main/Terror%20(100%25%20OFICIAL%20ORIGINAL%20O%25%20VIRUS).txt?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 2000, -- Percentage, 100 = default Rush speed
-    DelayTime = 7, -- Time before starting cycles (seconds)
+    DelayTime = 0.5, -- Time before starting cycles (seconds)
     HeightOffset = 0,
-    CanKill = true,
-    KillRange = 30,
-    BreakLights = true,
-    BackwardsMovement = false,
+    CanKill = false,
+    KillRange = 0,
+    BreakLights = false,
+    BackwardsMovement = true,
     FlickerLights = {
         true, -- Enabled/Disabled
         5, -- Time (seconds)
