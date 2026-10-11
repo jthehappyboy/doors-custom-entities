@@ -32,7 +32,7 @@ end
 			local function THEHORROR()
 				---configs
 				local breakMove = false
-				local ambruhspeed = 100
+				local ambruhspeed = 450
 				local storer = ambruhspeed
 				local ambushheight = Vector3.new(0,5,0)
 				local redtweeninfo = TweenInfo.new(3)
@@ -239,9 +239,9 @@ end
 				ambush.CanCollide = false
 				game.Debris:AddItem(s,5)
 				if gotRippersBadge == false then gotRippersBadge = true 
-					getgenv().Title = "Torn Apart" --Title Here
-					getgenv().Description = "Shredded to Pieces" --Description Here
-					getgenv().Reason = "Sucessfully survive Ripper." --Reason Here
+					getgenv().Title = "Torn into pieces" --Title Here
+					getgenv().Description = "HIDE THE HELL RIGHT NOW" --Description Here
+					getgenv().Reason = "Sucessfully Survive Ripper." --Reason Here
 					getgenv().BadgeId = 2129409220 --Replace Number with Your Badge ID
 					getgenv().Category = 10 --You can replace the Category or dont
 
