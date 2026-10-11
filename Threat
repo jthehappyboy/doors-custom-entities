@@ -6,11 +6,11 @@ local entity = Creator.createEntity({
 
     Model = "https://raw.githubusercontent.com/Ilikerobloxdoors/Threat/main/Threat%20HOTEL-.rbxm",
 
-    Speed = 137,
+    Speed = 900,
     DelayTime = 3,
     HeightOffset = 0,
 
-    CanKill = true,
+    CanKill = false,
     KillRange = 40,
 
     BreakLights = true,
